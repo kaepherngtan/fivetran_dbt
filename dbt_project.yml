@@ -1,8 +1,8 @@
-name: fivetran_dbt
-
+name: 	my-rd-coe-demo-data
 version: '1.0'
-profile: fivetran_dbt
+profile: 	my-rd-coe-demo-data
 
 models:
- kp_excel_custom_test:
-    +materialized: table
+  	my-rd-coe-demo-data:  # must match your project name
+    kp_excel_custom_test:  # subfolder under models/
+      +materialized: table
