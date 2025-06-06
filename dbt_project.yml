@@ -4,4 +4,4 @@ version: '1.0'
 profile: fivetran_dbt
 
 models:
-    +materialized: view
+    +materialized: table
