@@ -1,3 +1,4 @@
-create or replace table  `my-rd-coe-demo-data.kp_excel_custom_test.raw_bnpl_bnpl_outstanding_balance_by_age_limit_customer_stats_2`  AS
+{{ config(materialized='table') }}
+
 select * from `my-rd-coe-demo-data.kp_excel_custom_test.raw_bnpl_bnpl_outstanding_balance_by_age_limit_customer_stats` 
 where spending_limit = 'Above 45';
