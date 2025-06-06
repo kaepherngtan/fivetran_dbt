@@ -4,4 +4,5 @@ version: '1.0'
 profile: fivetran_dbt
 
 models:
+ kp_excel_custom_test:
     +materialized: table
