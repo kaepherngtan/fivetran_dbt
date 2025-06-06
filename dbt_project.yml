@@ -1,0 +1,7 @@
+name: my_project
+version: '1.0'
+profile: my_profile
+
+models:
+  my_project:
+    +materialized: view
