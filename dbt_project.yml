@@ -1,7 +1,7 @@
-name: my_project
+name: fivetran_dbt
+
 version: '1.0'
-profile: my_profile
+profile: fivetran_dbt
 
 models:
-  my_project:
     +materialized: view
