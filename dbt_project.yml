@@ -1,8 +1,8 @@
-name: 	my-rd-coe-demo-data
+name: my-rd-coe-demo-data
 version: '1.0'
-profile: 	my-rd-coe-demo-data
+profile: my-rd-coe-demo-data
 
 models:
-  	my-rd-coe-demo-data:  # must match your project name
+  my-rd-coe-demo-data:  # must match your project name
     kp_excel_custom_test:  # subfolder under models/
       +materialized: table
